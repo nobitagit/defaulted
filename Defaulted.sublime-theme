@@ -277,7 +277,7 @@
     {
         "class": "tree_row",
         // edited: bg of each line in the sidebar...
-        //"layer0.texture": "Theme - Defaulted/row_highlight_dark.png",  
+        //"layer0.texture": "Theme - Defaulted/row_highlight_dark.png",
         "layer0.tint": [164, 164, 164, 255],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
@@ -286,13 +286,13 @@
         // ... selected line in sidebar.
         "class": "tree_row",
         "attributes": ["selected"],
-        //"layer0.tint": [2, 190, 164, 255],        
+        //"layer0.tint": [2, 190, 164, 255],
         "layer0.opacity": 0.2
         /*
         this makes the selected line in the sidebar same color as solarized
         "layer0.opacity": 1.0,
-        "layer0.tint": [4, 33, 41]  
-        */        
+        "layer0.tint": [4, 33, 41]
+        */
     },
     // closing icon for open files in sidebar
     {
@@ -309,7 +309,7 @@
         "attributes": ["dirty"],
         // this makes the circle pink
         "layer0.tint": [254, 1, 164, 255],
-        "layer0.opacity": 1.0,  
+        "layer0.opacity": 1.0,
         "layer0.texture": "Theme - Defaulted/circle-sp.png"
     },
     {
@@ -327,7 +327,7 @@
         "content_margin": [0, 0, 1, 0]
     },
     {
-        // edited:  sidebar background
+        // edited:  important sidebar background
         "class": "sidebar_tree",
         "row_padding": [8, 3],
         "indent": 12,
@@ -336,7 +336,8 @@
         "layer0.tint": [13, 23, 33],
         // same background as solarized
         "layer0.tint": [4, 33, 41],
-        //"layer0.tint": [33, 33, 34],
+        // background for spacegray 80s
+        "layer0.tint": [45, 45, 45],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -370,11 +371,11 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [230, 235, 235, 120],
-        "color": [230, 235, 235, 200], 
+        "color": [230, 235, 235, 200],
         //"color": [108, 125, 186, 120],
         //"color": [254, 1, 164, 255],
 
-        "font.bold": false        
+        "font.bold": false
         //, "shadow_color": [60, 60, 60], "shadow_offset": [0, 1]
     },
 
@@ -390,7 +391,7 @@
     {
         "class": "icon_folder_loading",
         "content_margin": [0,0]
-    },    
+    },
     // end Remove folder icons
 
     {
@@ -455,10 +456,10 @@
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [87, 87, 87], 
+        "layer0.tint": [87, 87, 87],
         "layer1.opacity": 0.0
     },
-    // text for every row of quick panel    
+    // text for every row of quick panel
     {
         "class": "quick_panel_label",
         "fg": [170, 170, 170, 170], // change here
@@ -517,7 +518,7 @@
         //"selected_match_fg": [0, 0, 0, 255]
         "selected_fg": [72, 72, 72, 255],
         // caratteri che matchano quelli scritti
-        "selected_match_fg": [190, 16, 78, 255] 
+        "selected_match_fg": [190, 16, 78, 255]
     },
 
     {
@@ -633,7 +634,7 @@
         "layer2.texture": "Theme - Defaulted/medium_selected_tab_bg.png",
         "layer2.opacity": 0.5
     },
-    //important: selected tabs color and opacity    
+    //important: selected tabs color and opacity
     {
         "class": "tab_control", "attributes": ["selected", "file_medium_dark"],
         "tint_modifier": [0, 0, 0, 0],
@@ -814,9 +815,9 @@
         "layer2.opacity": 0.0,
         // edited: unsaved tab circle
         "layer3.texture": "Theme - Defaulted/circle-sp.png",
-        "layer3.tint": [254, 1, 164, 255],  
-        "layer3.opacity": 1.0,           
-        //"layer3.opacity": 0.8  
+        "layer3.tint": [254, 1, 164, 255],
+        "layer3.opacity": 1.0,
+        //"layer3.opacity": 0.8
     },
     {
         "class": "tab_close_button",
