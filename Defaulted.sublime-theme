@@ -362,7 +362,8 @@
     {
         // edited: single files text color in sidebar
         "class": "sidebar_label",
-        "color": [28, 125, 146], // blue
+        //"color": [28, 125, 146], // blue
+        "color": [102, 153, 204], // blue as functions in c.scheme
         "font.bold": false
         // , "shadow_color": [250, 250, 250], "shadow_offset": [0, 0]
     },
